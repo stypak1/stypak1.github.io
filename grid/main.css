@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Noto+Sans&subset=cyrillic');
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ 
+body {
+	background: #f3f5f7;
+	padding-top: 60px;
+}
+.section-title {
+	font:30px/35px Arvo, sans-serif; 
+	color:#3b3f6a;
+	text-align: center;
+	margin: 0 0 113px;
+}
+
+.icon-holder {
+	height: 147px;
+	margin: 0 0 33px;
+	text-align: center;
+}
+
+@media (min-width: 768px){
+	.icon-holder {
+		height: auto;
+	}
+}
+
+.icon-holder img {
+	width: 100%;
+	height: auto;
+}
+
+.icon-holder-1 img {
+	max-width: 184px;
+}
+
+.icon-holder-2 img {
+	max-width: 112px;
+}
+
+.icon-holder-3 img {
+	max-width: 161px;
+}
+
+.icon-holder-4 img {
+	max-width: 171px;
+}
+
+.column-title {
+	font: 22px/30px Arvo, serif;
+	text-align: center;
+	max-width: 200px;
+	margin: 0 auto 20px;
+}
+
+.column-text {
+	font: 18px/30px Noto Sans, sans-serif;
+	text-align: center;
+	max-width: 300px;
+	margin: 0 auto 60px;
+}
