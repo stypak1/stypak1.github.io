@@ -23,7 +23,7 @@ body {
 	text-align: center;
 }
 
-@media (min-width: 768px){
+@media (max-width: 576px){
 	.icon-holder {
 		height: auto;
 	}
