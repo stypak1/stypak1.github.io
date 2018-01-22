@@ -1,0 +1,33 @@
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/typography';
+
+
+body {
+    text-align: center;
+    background-color: $white;
+}
+
+section {
+    font-size: 0;
+    display: inline-block;
+
+    @include border();
+}
+
+.square {
+    display: inline-block;
+    background-color: $light-gray;
+
+    @include size();
+    @include border();
+}
+
+.blue {
+    background-color: $blue;
+}
+
+.light-blue {
+	background-color: $light-blue;
+}

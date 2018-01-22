@@ -1,0 +1,8 @@
+@mixin size() {
+  width: 48px;
+  height: 48px;
+}
+
+@mixin border() {
+  border: 1px solid $gray;
+}
