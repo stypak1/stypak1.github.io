@@ -1,0 +1,95 @@
+@import 'bootstrap/bootstrap-grid';
+@import 'base/reset';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/typography';
+
+
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 1;
+    margin: 5% 0 8px;
+    color: rgba(#000,.8);
+
+    span {
+        color: #fc6744;
+    }
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 0 10%;
+    letter-spacing: .17px;
+    color: rgba(#414141,.7);
+}
+
+.card {
+    padding: 52px 40px 50px;
+    box-shadow: 0 0 35px rgba(20, 20, 21,.21);
+}
+
+.light-blue {
+    background-color: #4eb2f7;
+}
+
+.violet {
+    background-color: #c049f8;
+}
+
+.very-light-blue {
+    background-color: #817eff ;
+}
+
+.red {
+    background-color: #f74770 ;
+}
+
+.cta {
+    font-size: 16px;
+    line-height: 55px;
+    display: block;
+    max-width: 228px;
+    margin: -28px auto 0;
+    text-decoration: none;
+    color: rgba($black,.8);
+    border-radius: 27px;
+    background-color: $white;
+    box-shadow: 1px 6px 14px rgba(20, 20, 21,.9);
+}
+
+.ico-holder {
+    height: 52px;
+    margin: 0 0 23px;
+}
+
+.ico {
+    font-size: 50px;
+    color: rgba($white,.8);
+}
+
+.card-title {
+    font-size: 20px;
+    color: rgba($white,.8);
+    margin: 0 0 23px;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 15px;
+    color: rgba($white,.8);
+    margin: 0 0 23px;
+}
+
+.icon-camera-alt:before {
+    transform: rotate(-25deg);
+}
+
+.ico-plus {
+    color: #000;
+    font-size: 20px;
+}
